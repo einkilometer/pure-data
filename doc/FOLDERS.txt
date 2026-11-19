@@ -1,1 +1,11 @@
+pure-data/doc/
 
+              1.manual/
+              2.control.examples/
+              3.audio.examples/
+              4.data.structures/
+              5.reference/
+              6.externs/
+              7.stuff/
+              8.topics/
+              sound/
