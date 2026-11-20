@@ -7,9 +7,12 @@ The root folder contains a file named "paste the subpatch to print as ps.pd" tha
 The patch is tested on pd-0.56.2 and with the ceammc library from deken.
 You can install "ceammc" by "Find Externals online" from the deken repository. 
 
-°Pd the free real-time computer music system.
+° Pd the free real-time computer music system. https://puredata.info
 °° There is also the https://github.com/uliss/pd-ceammc/releases distribution forked from pure-data.
 °°° Pure-Data documentation https://github.com/pure-data/pure-data/tree/master/doc
+
+This file https://github.com/einkilometer/pure-data/tree/main
+View site https://einkilometer.github.io/pure-data/
 
 
 
