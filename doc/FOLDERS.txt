@@ -1,5 +1,5 @@
 pure-data/doc/
-              1.manual/
+              --------------------
               2.control.examples/
               3.audio.examples/
               4.data.structures/
