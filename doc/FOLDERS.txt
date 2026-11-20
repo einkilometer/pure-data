@@ -6,5 +6,5 @@ pure-data/doc/
               5.reference/
               6.externs/
               7.stuff/
-              8.topics/
-              sound/
+              -------
+              -----
