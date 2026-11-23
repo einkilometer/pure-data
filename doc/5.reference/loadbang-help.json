@@ -1,0 +1,187 @@
+{"source_file":"https://github.com/einkilometer/pure-data/tree/main/doc5.reference/loadbang-help.txt#L1","online_patch":"https://github.com/einkilometer/pure-data/tree/main/doc5.reference/loadbang-help.pd#L1","online_pdf":"https://github.com/einkilometer/pure-data/tree/main/doc5.reference/loadbang-help.pdf#L1","objects":[{
+  "index": 0,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 3,
+      "dst_inlet": 0,
+      "dst_text": "#X msg 166 197 123;"
+    }
+  ]
+}
+,{
+  "index": 1,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 3,
+      "src_outlet": 0,
+      "src_text": "#X msg 166 197 123;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 2,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 3,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 0,
+      "src_outlet": 0,
+      "src_text": "#X obj 166 170 loadbang;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 1,
+      "dst_inlet": 0,
+      "dst_text": "#X floatatom 166 223 5 0 0 0 - - - 0;"
+    }
+  ]
+}
+,{
+  "index": 4,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 5,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 6,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 7,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 8,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 9,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 10,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 11,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 12,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 13,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 14,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 15,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 16,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 17,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 18,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 19,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 20,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 21,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 22,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 23,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 24,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 25,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 26,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+]}

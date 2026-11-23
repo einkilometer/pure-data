@@ -1,0 +1,193 @@
+{"source_file":"https://github.com/einkilometer/pure-data/tree/main/doc3.audio.examples/B01.wavetables.txt#L1","online_patch":"https://github.com/einkilometer/pure-data/tree/main/doc3.audio.examples/B01.wavetables.pd#L1","online_pdf":"https://github.com/einkilometer/pure-data/tree/main/doc3.audio.examples/B01.wavetables.pdf#L1","objects":[{
+  "index": 0,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 16,
+      "src_outlet": 0,
+      "src_text": "#X msg 364 174 60;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 1,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 364 230 mtof;"
+    }
+  ]
+}
+,{
+  "index": 1,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 0,
+      "src_outlet": 0,
+      "src_text": "#X floatatom 364 201 6 20 100 0 - - - 0;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 2,
+      "dst_inlet": 0,
+      "dst_text": "#X floatatom 364 257 8 0 0 0 - - - 0;"
+    }
+  ]
+}
+,{
+  "index": 2,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 1,
+      "src_outlet": 0,
+      "src_text": "#X obj 364 230 mtof;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 3,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 364 286 tabosc4~ table10;"
+    }
+  ]
+}
+,{
+  "index": 3,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 2,
+      "src_outlet": 0,
+      "src_text": "#X floatatom 364 257 8 0 0 0 - - - 0;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 5,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 364 324 output~;"
+    }
+  ]
+}
+,{
+  "index": 4,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 5,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 3,
+      "src_outlet": 0,
+      "src_text": "#X obj 364 286 tabosc4~ table10;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 6,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 7,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 8,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 9,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 10,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 11,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 12,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 13,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 14,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 15,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 16,
+      "dst_inlet": 0,
+      "dst_text": "#X msg 364 174 60;"
+    }
+  ]
+}
+,{
+  "index": 16,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 15,
+      "src_outlet": 0,
+      "src_text": "#X obj 364 147 loadbang;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 0,
+      "dst_inlet": 0,
+      "dst_text": "#X floatatom 364 201 6 20 100 0 - - - 0;"
+    }
+  ]
+}
+,{
+  "index": 17,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 18,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 19,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+]}

@@ -1,0 +1,342 @@
+{"source_file":"https://github.com/einkilometer/pure-data/tree/main/doc5.reference/env~-help.txt#L1","online_patch":"https://github.com/einkilometer/pure-data/tree/main/doc5.reference/env~-help.pd#L1","online_pdf":"https://github.com/einkilometer/pure-data/tree/main/doc5.reference/env~-help.pdf#L1","objects":[{
+  "index": 0,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 7,
+      "src_outlet": 0,
+      "src_text": "#X obj 47 303 env~ 16384 8192;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 13,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 47 382 - 100;"
+    }
+  ]
+}
+,{
+  "index": 1,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 2,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 3,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 4,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 47 268 *~;"
+    }
+  ]
+}
+,{
+  "index": 4,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 3,
+      "src_outlet": 0,
+      "src_text": "#X obj 47 211 osc~ 400;"
+    },
+    {
+      "src": 6,
+      "src_outlet": 0,
+      "src_text": "#X obj 132 237 dbtorms;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 7,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 47 303 env~ 16384 8192;"
+    }
+  ]
+}
+,{
+  "index": 5,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 6,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 132 237 dbtorms;"
+    }
+  ]
+}
+,{
+  "index": 6,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 5,
+      "src_outlet": 0,
+      "src_text": "#X floatatom 132 196 5 0 100 0 - - - 0;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 4,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 47 268 *~;"
+    }
+  ]
+}
+,{
+  "index": 7,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 4,
+      "src_outlet": 0,
+      "src_text": "#X obj 47 268 *~;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 0,
+      "dst_inlet": 0,
+      "dst_text": "#X floatatom 47 347 8 0 0 0 - - - 0;"
+    }
+  ]
+}
+,{
+  "index": 8,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 9,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 10,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 11,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 24,
+      "src_outlet": 0,
+      "src_text": "#X obj 368 185 set-dsp-tgl;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 12,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 13,
+      "src_outlet": 0,
+      "src_text": "#X obj 47 382 - 100;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 13,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 0,
+      "src_outlet": 0,
+      "src_text": "#X floatatom 47 347 8 0 0 0 - - - 0;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 12,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 48 415 vu 15 120 empty empty -1 -8 0 10 #404040 #000000 1 0;"
+    }
+  ]
+}
+,{
+  "index": 14,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 15,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 16,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 17,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 18,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 19,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 20,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 21,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 22,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 23,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 24,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 11,
+      "dst_inlet": 0,
+      "dst_text": "#X msg 368 221 \\; pd dsp \\$1;"
+    }
+  ]
+}
+,{
+  "index": 25,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 26,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 27,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 28,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 29,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 30,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 31,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 32,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 33,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 34,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 35,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 36,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 37,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 38,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 39,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 40,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+]}

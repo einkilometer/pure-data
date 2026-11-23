@@ -1,0 +1,253 @@
+{"source_file":"https://github.com/einkilometer/pure-data/tree/main/doc2.control.examples/17.PART3.midi.txt#L1","online_patch":"https://github.com/einkilometer/pure-data/tree/main/doc2.control.examples/17.PART3.midi.pd#L1","online_pdf":"https://github.com/einkilometer/pure-data/tree/main/doc2.control.examples/17.PART3.midi.pdf#L1","objects":[{
+  "index": 0,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 2,
+      "src_outlet": 2,
+      "src_text": "#X obj 170 97 notein;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 1,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 2,
+      "src_outlet": 1,
+      "src_text": "#X obj 170 97 notein;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 2,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 3,
+      "dst_inlet": 0,
+      "dst_text": "#X floatatom 153 125 0 0 0 0 - - - 0;"
+    },
+    {
+      "dst": 1,
+      "dst_inlet": 0,
+      "dst_text": "#X floatatom 189 125 0 0 0 0 - - - 0;"
+    },
+    {
+      "dst": 0,
+      "dst_inlet": 0,
+      "dst_text": "#X floatatom 225 125 0 0 0 0 - - - 0;"
+    }
+  ]
+}
+,{
+  "index": 3,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 2,
+      "src_outlet": 0,
+      "src_text": "#X obj 170 97 notein;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 4,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 7,
+      "src_outlet": 2,
+      "src_text": "#X obj 290 97 ctlin;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 5,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 7,
+      "src_outlet": 1,
+      "src_text": "#X obj 290 97 ctlin;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 6,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 7,
+      "src_outlet": 0,
+      "src_text": "#X obj 290 97 ctlin;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 7,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 6,
+      "dst_inlet": 0,
+      "dst_text": "#X floatatom 270 125 0 0 0 0 - - - 0;"
+    },
+    {
+      "dst": 5,
+      "dst_inlet": 0,
+      "dst_text": "#X floatatom 306 125 0 0 0 0 - - - 0;"
+    },
+    {
+      "dst": 4,
+      "dst_inlet": 0,
+      "dst_text": "#X floatatom 342 125 0 0 0 0 - - - 0;"
+    }
+  ]
+}
+,{
+  "index": 8,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 10,
+      "src_outlet": 1,
+      "src_text": "#X obj 57 97 bendin;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 9,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 10,
+      "src_outlet": 0,
+      "src_text": "#X obj 57 97 bendin;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 10,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 9,
+      "dst_inlet": 0,
+      "dst_text": "#X floatatom 57 125 0 0 0 0 - - - 0;"
+    },
+    {
+      "dst": 8,
+      "dst_inlet": 0,
+      "dst_text": "#X floatatom 96 125 0 0 0 0 - - - 0;"
+    }
+  ]
+}
+,{
+  "index": 11,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 13,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 59 192 bendout;"
+    }
+  ]
+}
+,{
+  "index": 12,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 13,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 59 192 bendout;"
+    }
+  ]
+}
+,{
+  "index": 13,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 11,
+      "src_outlet": 0,
+      "src_text": "#X floatatom 105 163 0 0 0 0 - - - 0;"
+    },
+    {
+      "src": 12,
+      "src_outlet": 0,
+      "src_text": "#X floatatom 59 163 0 0 0 0 - - - 0;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 14,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 15,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 17,
+      "src_outlet": 0,
+      "src_text": "#X msg 68 278 240 \\, 45 \\, 93 \\, 3 \\, 65 \\, 1 \\, 2 \\, 3 \\, 4 \\, 247;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 16,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 17,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 15,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 68 308 midiout;"
+    }
+  ]
+}
+,{
+  "index": 18,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 19,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 20,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+]}

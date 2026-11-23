@@ -1,0 +1,703 @@
+{"source_file":"https://github.com/einkilometer/pure-data/tree/main/doc5.reference/throw~-catch~-help.txt#L1","online_patch":"https://github.com/einkilometer/pure-data/tree/main/doc5.reference/throw~-catch~-help.pd#L1","online_pdf":"https://github.com/einkilometer/pure-data/tree/main/doc5.reference/throw~-catch~-help.pdf#L1","objects":[{
+  "index": 0,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 1,
+      "src_outlet": 0,
+      "src_text": "#X obj 126 447 snapshot~;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 1,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 4,
+      "src_outlet": 0,
+      "src_text": "#X obj 38 392 metro 200;"
+    },
+    {
+      "src": 31,
+      "src_outlet": 0,
+      "src_text": "#X obj 126 381 catch~ bus1;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 0,
+      "dst_inlet": 0,
+      "dst_text": "#X floatatom 126 477 5 0 0 0 - - - 0;"
+    }
+  ]
+}
+,{
+  "index": 2,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 3,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 4,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 9,
+      "src_outlet": 0,
+      "src_text": "#X obj 38 364 loadbang;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 1,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 126 447 snapshot~;"
+    },
+    {
+      "dst": 5,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 230 447 snapshot~;"
+    }
+  ]
+}
+,{
+  "index": 5,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 4,
+      "src_outlet": 0,
+      "src_text": "#X obj 38 392 metro 200;"
+    },
+    {
+      "src": 29,
+      "src_outlet": 0,
+      "src_text": "#X obj 230 380 catch~ \\$0-bus2;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 8,
+      "dst_inlet": 0,
+      "dst_text": "#X floatatom 230 477 5 0 0 0 - - - 0;"
+    }
+  ]
+}
+,{
+  "index": 6,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 7,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 8,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 5,
+      "src_outlet": 0,
+      "src_text": "#X obj 230 447 snapshot~;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 9,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 4,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 38 392 metro 200;"
+    }
+  ]
+}
+,{
+  "index": 10,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 11,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 33,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 160 246 sig~ 25;"
+    }
+  ]
+}
+,{
+  "index": 12,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 34,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 62 251 sig~ 50;"
+    }
+  ]
+}
+,{
+  "index": 13,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 14,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 15,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 16,
+      "src_outlet": 0,
+      "src_text": "#X obj 230 188 bng 19 250 50 0 empty empty empty 17 7 0 10 #dfdfdf #000000 #000000;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 27,
+      "dst_inlet": 0,
+      "dst_text": "#X msg 230 242 set \\$1-bus2;"
+    }
+  ]
+}
+,{
+  "index": 16,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 15,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 230 213 f \\$0;"
+    }
+  ]
+}
+,{
+  "index": 17,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 18,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 19,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 20,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 21,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 22,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 23,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 24,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 25,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 26,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 40,
+      "dst_inlet": 0,
+      "dst_text": "#X msg 379 384 \\; pd dsp \\$1;"
+    }
+  ]
+}
+,{
+  "index": 27,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 15,
+      "src_outlet": 0,
+      "src_text": "#X obj 230 213 f \\$0;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 32,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 230 333 throw~ bus1;"
+    }
+  ]
+}
+,{
+  "index": 28,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 32,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 230 333 throw~ bus1;"
+    }
+  ]
+}
+,{
+  "index": 29,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 5,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 230 447 snapshot~;"
+    }
+  ]
+}
+,{
+  "index": 30,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 34,
+      "src_outlet": 0,
+      "src_text": "#X obj 62 251 sig~ 50;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 31,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 1,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 126 447 snapshot~;"
+    }
+  ]
+}
+,{
+  "index": 32,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 27,
+      "src_outlet": 0,
+      "src_text": "#X msg 230 242 set \\$1-bus2;"
+    },
+    {
+      "src": 28,
+      "src_outlet": 0,
+      "src_text": "#X msg 242 272 set bus1;"
+    },
+    {
+      "src": 33,
+      "src_outlet": 0,
+      "src_text": "#X obj 160 246 sig~ 25;"
+    },
+    {
+      "src": 36,
+      "src_outlet": 0,
+      "src_text": "#X msg 257 302 set;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 33,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 11,
+      "src_outlet": 0,
+      "src_text": "#X floatatom 160 220 5 0 0 0 - - - 0;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 32,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 230 333 throw~ bus1;"
+    }
+  ]
+}
+,{
+  "index": 34,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 12,
+      "src_outlet": 0,
+      "src_text": "#X floatatom 62 224 5 0 0 0 - - - 0;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 30,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 62 288 throw~ bus1;"
+    }
+  ]
+}
+,{
+  "index": 35,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 36,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 32,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 230 333 throw~ bus1;"
+    }
+  ]
+}
+,{
+  "index": 37,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 38,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 39,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 40,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 26,
+      "src_outlet": 0,
+      "src_text": "#X obj 379 346 set-dsp-tgl;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 41,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 42,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 43,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 44,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 45,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 46,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 47,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 48,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 49,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 50,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 51,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 52,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 53,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 54,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 55,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 56,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 57,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 58,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 59,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 60,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 61,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 62,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 63,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 64,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 65,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 66,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 67,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 68,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 69,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 70,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 71,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 72,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 73,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 74,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 75,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 76,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 77,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 78,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 79,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 80,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 81,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 82,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 83,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+]}

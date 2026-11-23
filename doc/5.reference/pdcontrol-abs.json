@@ -1,0 +1,49 @@
+{"source_file":"https://github.com/einkilometer/pure-data/tree/main/doc5.reference/pdcontrol-abs.txt#L1","online_patch":"https://github.com/einkilometer/pure-data/tree/main/doc5.reference/pdcontrol-abs.pd#L1","online_pdf":"https://github.com/einkilometer/pure-data/tree/main/doc5.reference/pdcontrol-abs.pdf#L1","objects":[{
+  "index": 0,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 2,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 149 165 pdcontrol;"
+    }
+  ]
+}
+,{
+  "index": 1,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 2,
+      "src_outlet": 0,
+      "src_text": "#X obj 149 165 pdcontrol;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 2,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 0,
+      "src_outlet": 0,
+      "src_text": "#X obj 149 108 inlet;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 1,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 149 228 outlet;"
+    }
+  ]
+}
+,{
+  "index": 3,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+]}

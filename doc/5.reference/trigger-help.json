@@ -1,0 +1,1084 @@
+{"source_file":"https://github.com/einkilometer/pure-data/tree/main/doc5.reference/trigger-help.txt#L1","online_patch":"https://github.com/einkilometer/pure-data/tree/main/doc5.reference/trigger-help.pd#L1","online_pdf":"https://github.com/einkilometer/pure-data/tree/main/doc5.reference/trigger-help.pdf#L1","objects":[{
+  "index": 0,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 1,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 2,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 3,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 4,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 5,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 263 371 trigger float bang float;"
+    }
+  ]
+}
+,{
+  "index": 5,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 4,
+      "src_outlet": 0,
+      "src_text": "#X floatatom 263 331 5 0 0 0 - - - 0;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 25,
+      "dst_inlet": 0,
+      "dst_text": "#X floatatom 263 409 5 0 0 0 - - - 0;"
+    },
+    {
+      "dst": 6,
+      "dst_inlet": 0,
+      "dst_text": "#X msg 345 411 10;"
+    },
+    {
+      "dst": 24,
+      "dst_inlet": 0,
+      "dst_text": "#X floatatom 428 401 5 0 0 0 - - - 0;"
+    }
+  ]
+}
+,{
+  "index": 6,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 5,
+      "src_outlet": 1,
+      "src_text": "#X obj 263 371 trigger float bang float;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 7,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 345 445 -;"
+    }
+  ]
+}
+,{
+  "index": 7,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 6,
+      "src_outlet": 0,
+      "src_text": "#X msg 345 411 10;"
+    },
+    {
+      "src": 24,
+      "src_outlet": 0,
+      "src_text": "#X floatatom 428 401 5 0 0 0 - - - 0;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 8,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 327 473 *;"
+    }
+  ]
+}
+,{
+  "index": 8,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 7,
+      "src_outlet": 0,
+      "src_text": "#X obj 345 445 -;"
+    },
+    {
+      "src": 25,
+      "src_outlet": 0,
+      "src_text": "#X floatatom 263 409 5 0 0 0 - - - 0;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 9,
+      "dst_inlet": 0,
+      "dst_text": "#X floatatom 327 503 5 0 0 0 - - - 0;"
+    }
+  ]
+}
+,{
+  "index": 9,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 8,
+      "src_outlet": 0,
+      "src_text": "#X obj 327 473 *;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 10,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 11,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 41 431 trigger bang bang bang;"
+    }
+  ]
+}
+,{
+  "index": 11,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 10,
+      "src_outlet": 0,
+      "src_text": "#X obj 41 383 bng 19 250 50 0 empty empty empty 17 7 0 10 #dfdfdf #000000 #000000;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 14,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 41 486 print 3rd;"
+    },
+    {
+      "dst": 13,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 116 486 print 2nd;"
+    },
+    {
+      "dst": 12,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 192 486 print 1st;"
+    }
+  ]
+}
+,{
+  "index": 12,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 11,
+      "src_outlet": 2,
+      "src_text": "#X obj 41 431 trigger bang bang bang;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 13,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 11,
+      "src_outlet": 1,
+      "src_text": "#X obj 41 431 trigger bang bang bang;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 14,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 11,
+      "src_outlet": 0,
+      "src_text": "#X obj 41 431 trigger bang bang bang;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 15,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 16,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 17,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 18,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 19,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 20,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 690 175 t l f;"
+    }
+  ]
+}
+,{
+  "index": 20,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 19,
+      "src_outlet": 0,
+      "src_text": "#X msg 690 144 1 2 3;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 54,
+      "dst_inlet": 0,
+      "dst_text": "#X listbox 690 232 7 0 0 0 - - - 0;"
+    },
+    {
+      "dst": 71,
+      "dst_inlet": 0,
+      "dst_text": "#X floatatom 722 203 5 0 0 0 - - - 0;"
+    }
+  ]
+}
+,{
+  "index": 21,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 22,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 786 175 t l s;"
+    }
+  ]
+}
+,{
+  "index": 22,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 21,
+      "src_outlet": 0,
+      "src_text": "#X msg 786 144 list a b c;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 55,
+      "dst_inlet": 0,
+      "dst_text": "#X listbox 786 232 7 0 0 0 - - - 0;"
+    },
+    {
+      "dst": 72,
+      "dst_inlet": 0,
+      "dst_text": "#X symbolatom 818 203 5 0 0 0 - - - 0;"
+    }
+  ]
+}
+,{
+  "index": 23,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 24,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 5,
+      "src_outlet": 2,
+      "src_text": "#X obj 263 371 trigger float bang float;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 7,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 345 445 -;"
+    }
+  ]
+}
+,{
+  "index": 25,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 5,
+      "src_outlet": 0,
+      "src_text": "#X obj 263 371 trigger float bang float;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 8,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 327 473 *;"
+    }
+  ]
+}
+,{
+  "index": 26,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 27,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 28,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 38,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 914 203 trigger list bang;"
+    }
+  ]
+}
+,{
+  "index": 29,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 73,
+      "src_outlet": 1,
+      "src_text": "#X obj 914 230 route bang, f 5;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 41,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 969 277 print [t l b];"
+    }
+  ]
+}
+,{
+  "index": 30,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 38,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 914 203 trigger list bang;"
+    }
+  ]
+}
+,{
+  "index": 31,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 38,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 914 203 trigger list bang;"
+    }
+  ]
+}
+,{
+  "index": 32,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 38,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 914 203 trigger list bang;"
+    }
+  ]
+}
+,{
+  "index": 33,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 39,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 898 467 trigger anything bang;"
+    }
+  ]
+}
+,{
+  "index": 34,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 39,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 898 467 trigger anything bang;"
+    }
+  ]
+}
+,{
+  "index": 35,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 39,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 898 467 trigger anything bang;"
+    }
+  ]
+}
+,{
+  "index": 36,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 39,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 898 467 trigger anything bang;"
+    }
+  ]
+}
+,{
+  "index": 37,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 39,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 898 467 trigger anything bang;"
+    }
+  ]
+}
+,{
+  "index": 38,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 28,
+      "src_outlet": 0,
+      "src_text": "#X floatatom 914 117 4 0 0 0 - - - 0;"
+    },
+    {
+      "src": 30,
+      "src_outlet": 0,
+      "src_text": "#X msg 953 117 symbol a;"
+    },
+    {
+      "src": 31,
+      "src_outlet": 0,
+      "src_text": "#X msg 983 174 1 2 3;"
+    },
+    {
+      "src": 32,
+      "src_outlet": 0,
+      "src_text": "#X msg 968 146 list a b c;"
+    },
+    {
+      "src": 70,
+      "src_outlet": 0,
+      "src_text": "#X obj 886 117 bng 19 250 50 0 empty empty empty 17 7 0 10 #dfdfdf #000000 #000000;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 73,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 914 230 route bang, f 5;"
+    },
+    {
+      "dst": 69,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 1030 232 bng 19 250 50 0 empty empty empty 17 7 0 10 #dfdfdf #000000 #000000;"
+    }
+  ]
+}
+,{
+  "index": 39,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 33,
+      "src_outlet": 0,
+      "src_text": "#X floatatom 898 381 5 0 0 0 - - - 0;"
+    },
+    {
+      "src": 34,
+      "src_outlet": 0,
+      "src_text": "#X msg 942 381 symbol a;"
+    },
+    {
+      "src": 35,
+      "src_outlet": 0,
+      "src_text": "#X msg 965 436 1 2 3;"
+    },
+    {
+      "src": 36,
+      "src_outlet": 0,
+      "src_text": "#X msg 955 409 list a b c;"
+    },
+    {
+      "src": 37,
+      "src_outlet": 0,
+      "src_text": "#X msg 775 381 dog my cats;"
+    },
+    {
+      "src": 68,
+      "src_outlet": 0,
+      "src_text": "#X obj 870 381 bng 19 250 50 0 empty empty empty 17 7 0 10 #dfdfdf #000000 #000000;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 40,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 898 513 print [t a b];"
+    },
+    {
+      "dst": 40,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 898 513 print [t a b];"
+    }
+  ]
+}
+,{
+  "index": 40,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 39,
+      "src_outlet": 0,
+      "src_text": "#X obj 898 467 trigger anything bang;"
+    },
+    {
+      "src": 39,
+      "src_outlet": 1,
+      "src_text": "#X obj 898 467 trigger anything bang;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 41,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 29,
+      "src_outlet": 0,
+      "src_text": "#X listbox 969 232 6 0 0 0 - - - 0;"
+    },
+    {
+      "src": 69,
+      "src_outlet": 0,
+      "src_text": "#X obj 1030 232 bng 19 250 50 0 empty empty empty 17 7 0 10 #dfdfdf #000000 #000000;"
+    },
+    {
+      "src": 73,
+      "src_outlet": 0,
+      "src_text": "#X obj 914 230 route bang, f 5;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 42,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 43,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 44,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 45,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 46,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 47,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 49,
+      "src_outlet": 0,
+      "src_text": "#X floatatom 520 422 7 0 0 0 - - - 0;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 51,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 499 478 pack f f;"
+    },
+    {
+      "dst": 51,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 499 478 pack f f;"
+    }
+  ]
+}
+,{
+  "index": 48,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 51,
+      "src_outlet": 0,
+      "src_text": "#X obj 499 478 pack f f;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 49,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 47,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 520 447 t b f;"
+    }
+  ]
+}
+,{
+  "index": 50,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 51,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 499 478 pack f f;"
+    }
+  ]
+}
+,{
+  "index": 51,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 47,
+      "src_outlet": 0,
+      "src_text": "#X obj 520 447 t b f;"
+    },
+    {
+      "src": 47,
+      "src_outlet": 1,
+      "src_text": "#X obj 520 447 t b f;"
+    },
+    {
+      "src": 50,
+      "src_outlet": 0,
+      "src_text": "#X floatatom 499 392 7 0 0 0 - - - 0;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 48,
+      "dst_inlet": 0,
+      "dst_text": "#X listbox 499 513 11 0 0 0 - - - 0;"
+    }
+  ]
+}
+,{
+  "index": 52,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 53,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 54,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 20,
+      "src_outlet": 0,
+      "src_text": "#X obj 690 175 t l f;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 55,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 22,
+      "src_outlet": 0,
+      "src_text": "#X obj 786 175 t l s;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 56,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 57,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 58,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 59,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 60,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 61,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 62,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 63,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 64,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 65,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 66,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 67,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 68,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 39,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 898 467 trigger anything bang;"
+    }
+  ]
+}
+,{
+  "index": 69,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 38,
+      "src_outlet": 1,
+      "src_text": "#X obj 914 203 trigger list bang;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 41,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 969 277 print [t l b];"
+    }
+  ]
+}
+,{
+  "index": 70,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 38,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 914 203 trigger list bang;"
+    }
+  ]
+}
+,{
+  "index": 71,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 20,
+      "src_outlet": 1,
+      "src_text": "#X obj 690 175 t l f;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 72,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 22,
+      "src_outlet": 1,
+      "src_text": "#X obj 786 175 t l s;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 73,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 38,
+      "src_outlet": 0,
+      "src_text": "#X obj 914 203 trigger list bang;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 41,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 969 277 print [t l b];"
+    },
+    {
+      "dst": 74,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 914 277 bng 19 250 50 0 empty empty empty 17 7 0 10 #dfdfdf #000000 #000000;"
+    },
+    {
+      "dst": 29,
+      "dst_inlet": 0,
+      "dst_text": "#X listbox 969 232 6 0 0 0 - - - 0;"
+    }
+  ]
+}
+,{
+  "index": 74,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 73,
+      "src_outlet": 0,
+      "src_text": "#X obj 914 230 route bang, f 5;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 75,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 76,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 77,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 78,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 79,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 80,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 81,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 82,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 83,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 84,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 85,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 86,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 87,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 88,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 89,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 90,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 91,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 92,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 93,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 94,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 95,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 96,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+]}

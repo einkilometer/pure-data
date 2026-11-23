@@ -1,0 +1,1036 @@
+{"source_file":"https://github.com/einkilometer/pure-data/tree/main/doc5.reference/poly-help.txt#L1","online_patch":"https://github.com/einkilometer/pure-data/tree/main/doc5.reference/poly-help.pd#L1","online_pdf":"https://github.com/einkilometer/pure-data/tree/main/doc5.reference/poly-help.pdf#L1","objects":[{
+  "index": 0,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 1,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 2,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 3,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 4,
+      "src_outlet": 0,
+      "src_text": "#X msg 210 304 stop;"
+    },
+    {
+      "src": 5,
+      "src_outlet": 0,
+      "src_text": "#X msg 204 275 clear;"
+    },
+    {
+      "src": 33,
+      "src_outlet": 0,
+      "src_text": "#X msg 223 360 steal \\$1;"
+    },
+    {
+      "src": 36,
+      "src_outlet": 0,
+      "src_text": "#X msg 33 352 resize \\$1;"
+    },
+    {
+      "src": 41,
+      "src_outlet": 0,
+      "src_text": "#X listbox 110 276 10 0 0 0 - - - 0;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 8,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 104 430 pack f f f;"
+    },
+    {
+      "dst": 8,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 104 430 pack f f f;"
+    },
+    {
+      "dst": 8,
+      "dst_inlet": 2,
+      "dst_text": "#X obj 104 430 pack f f f;"
+    }
+  ]
+}
+,{
+  "index": 4,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 3,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 111 402 poly 4 1;"
+    }
+  ]
+}
+,{
+  "index": 5,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 3,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 111 402 poly 4 1;"
+    }
+  ]
+}
+,{
+  "index": 6,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 7,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 8,
+      "src_outlet": 0,
+      "src_text": "#X obj 104 430 pack f f f;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 16,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 104 489 route 1 2 3 4, f 39;"
+    }
+  ]
+}
+,{
+  "index": 8,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 3,
+      "src_outlet": 0,
+      "src_text": "#X obj 111 402 poly 4 1;"
+    },
+    {
+      "src": 3,
+      "src_outlet": 1,
+      "src_text": "#X obj 111 402 poly 4 1;"
+    },
+    {
+      "src": 3,
+      "src_outlet": 2,
+      "src_text": "#X obj 111 402 poly 4 1;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 7,
+      "dst_inlet": 0,
+      "dst_text": "#X listbox 104 460 13 0 0 0 - - - 0;"
+    }
+  ]
+}
+,{
+  "index": 9,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 10,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 11,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 12,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 13,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 14,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 15,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 16,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 7,
+      "src_outlet": 0,
+      "src_text": "#X listbox 104 460 13 0 0 0 - - - 0;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 17,
+      "dst_inlet": 0,
+      "dst_text": "#X listbox 104 517 7 0 0 0 - - - 0;"
+    },
+    {
+      "dst": 19,
+      "dst_inlet": 0,
+      "dst_text": "#X listbox 171 517 7 0 0 0 - - - 0;"
+    },
+    {
+      "dst": 20,
+      "dst_inlet": 0,
+      "dst_text": "#X listbox 239 517 7 0 0 0 - - - 0;"
+    },
+    {
+      "dst": 21,
+      "dst_inlet": 0,
+      "dst_text": "#X listbox 306 517 7 0 0 0 - - - 0;"
+    },
+    {
+      "dst": 39,
+      "dst_inlet": 0,
+      "dst_text": "#X listbox 373 517 7 0 0 0 - - - 0;"
+    }
+  ]
+}
+,{
+  "index": 17,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 16,
+      "src_outlet": 0,
+      "src_text": "#X obj 104 489 route 1 2 3 4, f 39;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 18,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 104 544 print v1;"
+    }
+  ]
+}
+,{
+  "index": 18,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 17,
+      "src_outlet": 0,
+      "src_text": "#X listbox 104 517 7 0 0 0 - - - 0;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 19,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 16,
+      "src_outlet": 1,
+      "src_text": "#X obj 104 489 route 1 2 3 4, f 39;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 22,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 171 544 print v2;"
+    }
+  ]
+}
+,{
+  "index": 20,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 16,
+      "src_outlet": 2,
+      "src_text": "#X obj 104 489 route 1 2 3 4, f 39;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 23,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 239 544 print v3;"
+    }
+  ]
+}
+,{
+  "index": 21,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 16,
+      "src_outlet": 3,
+      "src_text": "#X obj 104 489 route 1 2 3 4, f 39;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 24,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 306 544 print v4;"
+    }
+  ]
+}
+,{
+  "index": 22,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 19,
+      "src_outlet": 0,
+      "src_text": "#X listbox 171 517 7 0 0 0 - - - 0;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 23,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 20,
+      "src_outlet": 0,
+      "src_text": "#X listbox 239 517 7 0 0 0 - - - 0;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 24,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 21,
+      "src_outlet": 0,
+      "src_text": "#X listbox 306 517 7 0 0 0 - - - 0;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 25,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 26,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 27,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 28,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 29,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 30,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 31,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 32,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 33,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 34,
+      "src_outlet": 0,
+      "src_text": "#X obj 223 336 tgl 19 0 empty empty empty 17 7 0 10 #dfdfdf #000000 #000000 0 64;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 3,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 111 402 poly 4 1;"
+    }
+  ]
+}
+,{
+  "index": 34,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 33,
+      "dst_inlet": 0,
+      "dst_text": "#X msg 223 360 steal \\$1;"
+    }
+  ]
+}
+,{
+  "index": 35,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 36,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 37,
+      "src_outlet": 0,
+      "src_text": "#X floatatom 33 329 5 1 100 0 - - - 0;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 3,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 111 402 poly 4 1;"
+    }
+  ]
+}
+,{
+  "index": 37,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 36,
+      "dst_inlet": 0,
+      "dst_text": "#X msg 33 352 resize \\$1;"
+    }
+  ]
+}
+,{
+  "index": 38,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 39,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 16,
+      "src_outlet": 4,
+      "src_text": "#X obj 104 489 route 1 2 3 4, f 39;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 40,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 41,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 46,
+      "src_outlet": 0,
+      "src_text": "#X msg 63 228 72 \\$1;"
+    },
+    {
+      "src": 47,
+      "src_outlet": 0,
+      "src_text": "#X msg 110 228 74 \\$1;"
+    },
+    {
+      "src": 48,
+      "src_outlet": 0,
+      "src_text": "#X msg 157 228 77 \\$1;"
+    },
+    {
+      "src": 49,
+      "src_outlet": 0,
+      "src_text": "#X msg 205 228 81 \\$1;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 3,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 111 402 poly 4 1;"
+    }
+  ]
+}
+,{
+  "index": 42,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 49,
+      "dst_inlet": 0,
+      "dst_text": "#X msg 205 228 81 \\$1;"
+    }
+  ]
+}
+,{
+  "index": 43,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 46,
+      "dst_inlet": 0,
+      "dst_text": "#X msg 63 228 72 \\$1;"
+    }
+  ]
+}
+,{
+  "index": 44,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 47,
+      "dst_inlet": 0,
+      "dst_text": "#X msg 110 228 74 \\$1;"
+    }
+  ]
+}
+,{
+  "index": 45,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 48,
+      "dst_inlet": 0,
+      "dst_text": "#X msg 157 228 77 \\$1;"
+    }
+  ]
+}
+,{
+  "index": 46,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 43,
+      "src_outlet": 0,
+      "src_text": "#X obj 63 202 tgl 19 0 empty empty empty 17 7 0 10 #dfdfdf #000000 #000000 0 64;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 41,
+      "dst_inlet": 0,
+      "dst_text": "#X listbox 110 276 10 0 0 0 - - - 0;"
+    }
+  ]
+}
+,{
+  "index": 47,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 44,
+      "src_outlet": 0,
+      "src_text": "#X obj 110 202 tgl 19 0 empty empty empty 17 7 0 10 #dfdfdf #000000 #000000 0 64;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 41,
+      "dst_inlet": 0,
+      "dst_text": "#X listbox 110 276 10 0 0 0 - - - 0;"
+    }
+  ]
+}
+,{
+  "index": 48,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 45,
+      "src_outlet": 0,
+      "src_text": "#X obj 157 202 tgl 19 0 empty empty empty 17 7 0 10 #dfdfdf #000000 #000000 0 64;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 41,
+      "dst_inlet": 0,
+      "dst_text": "#X listbox 110 276 10 0 0 0 - - - 0;"
+    }
+  ]
+}
+,{
+  "index": 49,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 42,
+      "src_outlet": 0,
+      "src_text": "#X obj 205 202 tgl 19 0 empty empty empty 17 7 0 10 #dfdfdf #000000 #000000 0 64;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 41,
+      "dst_inlet": 0,
+      "dst_text": "#X listbox 110 276 10 0 0 0 - - - 0;"
+    }
+  ]
+}
+,{
+  "index": 50,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 51,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 52,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 53,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 54,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 55,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 56,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 57,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 58,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 59,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 60,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 61,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 62,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 63,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 64,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 65,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 66,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 67,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 68,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 69,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 70,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 71,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 72,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 73,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 74,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 75,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 76,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 77,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 78,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 79,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 80,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 81,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 82,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 83,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 84,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 85,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 86,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 87,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 88,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 89,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 90,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 91,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 92,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 93,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 94,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 95,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 96,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 97,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 98,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 99,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 100,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 101,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 102,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 103,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 104,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 105,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 106,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 107,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 108,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 109,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 110,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 111,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 112,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 113,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 114,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 115,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 116,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+]}

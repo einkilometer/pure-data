@@ -1,0 +1,404 @@
+{"source_file":"https://github.com/einkilometer/pure-data/tree/main/doc2.control.examples/06.more.counters.txt#L1","online_patch":"https://github.com/einkilometer/pure-data/tree/main/doc2.control.examples/06.more.counters.pd#L1","online_pdf":"https://github.com/einkilometer/pure-data/tree/main/doc2.control.examples/06.more.counters.pdf#L1","objects":[{
+  "index": 0,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 1,
+      "src_outlet": 0,
+      "src_text": "#X obj 214 174 + 1;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 1,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 4,
+      "src_outlet": 0,
+      "src_text": "#X obj 214 148 float;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 0,
+      "dst_inlet": 0,
+      "dst_text": "#X floatatom 214 200 4 0 0 0 - - - 0;"
+    },
+    {
+      "dst": 4,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 214 148 float;"
+    },
+    {
+      "dst": 7,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 123 98 select 10;"
+    }
+  ]
+}
+,{
+  "index": 2,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 3,
+      "src_outlet": 0,
+      "src_text": "#X msg 123 124 stop;"
+    },
+    {
+      "src": 5,
+      "src_outlet": 0,
+      "src_text": "#X obj 214 92 trigger bang bang;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 4,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 214 148 float;"
+    }
+  ]
+}
+,{
+  "index": 3,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 7,
+      "src_outlet": 0,
+      "src_text": "#X obj 123 98 select 10;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 2,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 214 121 metro 500;"
+    }
+  ]
+}
+,{
+  "index": 4,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 1,
+      "src_outlet": 0,
+      "src_text": "#X obj 214 174 + 1;"
+    },
+    {
+      "src": 2,
+      "src_outlet": 0,
+      "src_text": "#X obj 214 121 metro 500;"
+    },
+    {
+      "src": 6,
+      "src_outlet": 0,
+      "src_text": "#X msg 330 119 0;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 1,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 214 174 + 1;"
+    }
+  ]
+}
+,{
+  "index": 5,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 21,
+      "src_outlet": 0,
+      "src_text": "#X obj 214 66 bng 19 250 50 0 empty empty empty 17 7 0 10 #dfdfdf #000000 #000000;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 2,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 214 121 metro 500;"
+    },
+    {
+      "dst": 6,
+      "dst_inlet": 0,
+      "dst_text": "#X msg 330 119 0;"
+    }
+  ]
+}
+,{
+  "index": 6,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 5,
+      "src_outlet": 1,
+      "src_text": "#X obj 214 92 trigger bang bang;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 4,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 214 148 float;"
+    }
+  ]
+}
+,{
+  "index": 7,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 1,
+      "src_outlet": 0,
+      "src_text": "#X obj 214 174 + 1;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 3,
+      "dst_inlet": 0,
+      "dst_text": "#X msg 123 124 stop;"
+    }
+  ]
+}
+,{
+  "index": 8,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 9,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 10,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 11,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 19,
+      "src_outlet": 0,
+      "src_text": "#X floatatom 130 327 4 0 0 0 - - - 0;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 12,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 130 379 select 0 1;"
+    }
+  ]
+}
+,{
+  "index": 12,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 11,
+      "src_outlet": 0,
+      "src_text": "#X obj 130 353 >= 0;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 15,
+      "dst_inlet": 0,
+      "dst_text": "#X msg 130 405 -1;"
+    },
+    {
+      "dst": 13,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 163 434 float;"
+    },
+    {
+      "dst": 24,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 173 407 bng 19 250 50 0 empty empty empty 17 7 0 10 #dfdfdf #000000 #000000;"
+    }
+  ]
+}
+,{
+  "index": 13,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 12,
+      "src_outlet": 1,
+      "src_text": "#X obj 130 379 select 0 1;"
+    },
+    {
+      "src": 14,
+      "src_outlet": 0,
+      "src_text": "#X obj 217 435 + 1;"
+    },
+    {
+      "src": 15,
+      "src_outlet": 0,
+      "src_text": "#X msg 130 405 -1;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 14,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 217 435 + 1;"
+    }
+  ]
+}
+,{
+  "index": 14,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 13,
+      "src_outlet": 0,
+      "src_text": "#X obj 163 434 float;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 13,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 163 434 float;"
+    },
+    {
+      "dst": 20,
+      "dst_inlet": 0,
+      "dst_text": "#X floatatom 217 461 4 0 0 0 - - - 0;"
+    }
+  ]
+}
+,{
+  "index": 15,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 12,
+      "src_outlet": 0,
+      "src_text": "#X obj 130 379 select 0 1;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 13,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 163 434 float;"
+    }
+  ]
+}
+,{
+  "index": 16,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 17,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 18,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 19,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 11,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 130 353 >= 0;"
+    }
+  ]
+}
+,{
+  "index": 20,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 14,
+      "src_outlet": 0,
+      "src_text": "#X obj 217 435 + 1;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 21,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 5,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 214 92 trigger bang bang;"
+    }
+  ]
+}
+,{
+  "index": 22,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 23,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 24,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 12,
+      "src_outlet": 1,
+      "src_text": "#X obj 130 379 select 0 1;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 25,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 26,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 27,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 28,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+]}

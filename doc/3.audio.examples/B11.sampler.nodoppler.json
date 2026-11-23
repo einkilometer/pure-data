@@ -1,0 +1,526 @@
+{"source_file":"https://github.com/einkilometer/pure-data/tree/main/doc3.audio.examples/B11.sampler.nodoppler.txt#L1","online_patch":"https://github.com/einkilometer/pure-data/tree/main/doc3.audio.examples/B11.sampler.nodoppler.pd#L1","online_pdf":"https://github.com/einkilometer/pure-data/tree/main/doc3.audio.examples/B11.sampler.nodoppler.pdf#L1","objects":[{
+  "index": 0,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 1,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 20,
+      "dst_inlet": 0,
+      "dst_text": "#X msg 501 484 read ../sound/voice.wav table20;"
+    }
+  ]
+}
+,{
+  "index": 2,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 24,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 119 135 phasor~;"
+    }
+  ]
+}
+,{
+  "index": 3,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 25,
+      "src_outlet": 0,
+      "src_text": "#X obj 190 129 hsl 162 19 0 1000 0 0 empty \\$0-size chunk\\ size\\ (ms) -2 -10 0 12 #dfdfdf #000000 #000000 0 1;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 31,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 187 199 * 48;"
+    }
+  ]
+}
+,{
+  "index": 4,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 12,
+      "src_outlet": 0,
+      "src_text": "#X obj 119 307 *~;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 9,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 190 370 +~;"
+    }
+  ]
+}
+,{
+  "index": 5,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 19,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 354 513 tabwrite~ table20;"
+    }
+  ]
+}
+,{
+  "index": 6,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 7,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 17,
+      "src_outlet": 0,
+      "src_text": "#X obj 56 340 cos~;"
+    },
+    {
+      "src": 18,
+      "src_outlet": 0,
+      "src_text": "#X obj 190 405 tabread4~ table20;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 14,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 172 514 output~;"
+    }
+  ]
+}
+,{
+  "index": 8,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 26,
+      "src_outlet": 0,
+      "src_text": "#X obj 252 185 hsl 162 19 -250 1000 0 0 empty \\$0-read-point read\\ point\\ (ms) -2 -10 0 12 #dfdfdf #000000 #000000 0 1;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 30,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 249 240 * 48;"
+    }
+  ]
+}
+,{
+  "index": 9,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 4,
+      "src_outlet": 0,
+      "src_text": "#X obj 119 334 +~ 1;"
+    },
+    {
+      "src": 10,
+      "src_outlet": 0,
+      "src_text": "#X obj 208 343 samphold~;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 18,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 190 405 tabread4~ table20;"
+    }
+  ]
+}
+,{
+  "index": 10,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 24,
+      "src_outlet": 0,
+      "src_text": "#X obj 119 135 phasor~;"
+    },
+    {
+      "src": 30,
+      "src_outlet": 0,
+      "src_text": "#X obj 249 240 * 48;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 9,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 190 370 +~;"
+    }
+  ]
+}
+,{
+  "index": 11,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 24,
+      "src_outlet": 0,
+      "src_text": "#X obj 119 135 phasor~;"
+    },
+    {
+      "src": 31,
+      "src_outlet": 0,
+      "src_text": "#X obj 187 199 * 48;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 12,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 119 307 *~;"
+    }
+  ]
+}
+,{
+  "index": 12,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 11,
+      "src_outlet": 0,
+      "src_text": "#X obj 137 281 samphold~;"
+    },
+    {
+      "src": 24,
+      "src_outlet": 0,
+      "src_text": "#X obj 119 135 phasor~;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 4,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 119 334 +~ 1;"
+    }
+  ]
+}
+,{
+  "index": 13,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 20,
+      "src_outlet": 0,
+      "src_text": "#X msg 501 484 read ../sound/voice.wav table20;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 14,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 7,
+      "src_outlet": 0,
+      "src_text": "#X obj 172 447 *~;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 15,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 24,
+      "src_outlet": 0,
+      "src_text": "#X obj 119 135 phasor~;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 16,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 56 317 *~ 0.5;"
+    }
+  ]
+}
+,{
+  "index": 16,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 15,
+      "src_outlet": 0,
+      "src_text": "#X obj 56 293 -~ 0.5;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 17,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 56 340 cos~;"
+    }
+  ]
+}
+,{
+  "index": 17,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 16,
+      "src_outlet": 0,
+      "src_text": "#X obj 56 317 *~ 0.5;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 7,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 172 447 *~;"
+    }
+  ]
+}
+,{
+  "index": 18,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 9,
+      "src_outlet": 0,
+      "src_text": "#X obj 190 370 +~;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 7,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 172 447 *~;"
+    }
+  ]
+}
+,{
+  "index": 19,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 5,
+      "src_outlet": 0,
+      "src_text": "#X obj 354 434 adc~ 1;"
+    },
+    {
+      "src": 22,
+      "src_outlet": 0,
+      "src_text": "#X obj 372 476 bng 19 250 50 0 empty empty empty 17 7 0 10 #dfdfdf #000000 #000000;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 20,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 1,
+      "src_outlet": 0,
+      "src_text": "#X obj 501 439 loadbang;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 13,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 501 508 soundfiler;"
+    }
+  ]
+}
+,{
+  "index": 21,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 22,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 19,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 354 513 tabwrite~ table20;"
+    }
+  ]
+}
+,{
+  "index": 23,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 24,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 2,
+      "src_outlet": 0,
+      "src_text": "#X floatatom 119 101 5 0 0 2 Hz \\$0-freq - 0;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 10,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 208 343 samphold~;"
+    },
+    {
+      "dst": 11,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 137 281 samphold~;"
+    },
+    {
+      "dst": 12,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 119 307 *~;"
+    },
+    {
+      "dst": 15,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 56 293 -~ 0.5;"
+    }
+  ]
+}
+,{
+  "index": 25,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 3,
+      "dst_inlet": 0,
+      "dst_text": "#X floatatom 187 174 6 0 0 0 - - - 0;"
+    }
+  ]
+}
+,{
+  "index": 26,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 8,
+      "dst_inlet": 0,
+      "dst_text": "#X floatatom 249 216 6 0 0 0 - - - 0;"
+    }
+  ]
+}
+,{
+  "index": 27,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 28,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 29,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 30,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 8,
+      "src_outlet": 0,
+      "src_text": "#X floatatom 249 216 6 0 0 0 - - - 0;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 10,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 208 343 samphold~;"
+    }
+  ]
+}
+,{
+  "index": 31,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 3,
+      "src_outlet": 0,
+      "src_text": "#X floatatom 187 174 6 0 0 0 - - - 0;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 11,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 137 281 samphold~;"
+    }
+  ]
+}
+,{
+  "index": 32,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 33,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 34,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 35,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 36,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 37,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 38,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+]}

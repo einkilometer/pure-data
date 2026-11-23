@@ -1,0 +1,593 @@
+{"source_file":"https://github.com/einkilometer/pure-data/tree/main/doc4.data.structures/data-array.txt#L1","online_patch":"https://github.com/einkilometer/pure-data/tree/main/doc4.data.structures/data-array.pd#L1","online_pdf":"https://github.com/einkilometer/pure-data/tree/main/doc4.data.structures/data-array.pdf#L1","objects":[{
+  "index": 0,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 23,
+      "src_outlet": 0,
+      "src_text": "#X obj 123 244 getsize template-event \\$1, f 17;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 15,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 36 366 select;"
+    }
+  ]
+}
+,{
+  "index": 1,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 2,
+      "src_outlet": 0,
+      "src_text": "#X obj 69 319 + 1;"
+    },
+    {
+      "src": 3,
+      "src_outlet": 0,
+      "src_text": "#X msg 54 227 1;"
+    },
+    {
+      "src": 16,
+      "src_outlet": 0,
+      "src_text": "#X obj 161 167 trigger bang bang pointer bang, f 42;"
+    },
+    {
+      "src": 17,
+      "src_outlet": 0,
+      "src_text": "#X obj 434 578 delay;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 2,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 69 319 + 1;"
+    },
+    {
+      "dst": 15,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 36 366 select;"
+    }
+  ]
+}
+,{
+  "index": 2,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 1,
+      "src_outlet": 0,
+      "src_text": "#X obj 36 323 f;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 1,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 36 323 f;"
+    }
+  ]
+}
+,{
+  "index": 3,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 16,
+      "src_outlet": 3,
+      "src_text": "#X obj 161 167 trigger bang bang pointer bang, f 42;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 1,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 36 323 f;"
+    }
+  ]
+}
+,{
+  "index": 4,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 16,
+      "src_outlet": 1,
+      "src_text": "#X obj 161 167 trigger bang bang pointer bang, f 42;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 21,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 295 316 element template-event \\$1, f 17;"
+    }
+  ]
+}
+,{
+  "index": 5,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 7,
+      "src_outlet": 0,
+      "src_text": "#X obj 434 478 -;"
+    },
+    {
+      "src": 9,
+      "src_outlet": 0,
+      "src_text": "#X obj 473 478 r delay-multiplier;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 12,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 364 607 outlet;"
+    },
+    {
+      "dst": 17,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 434 578 delay;"
+    }
+  ]
+}
+,{
+  "index": 6,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 20,
+      "src_outlet": 2,
+      "src_text": "#X obj 131 357 get template-\\$1 y w x;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 7,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 434 478 -;"
+    },
+    {
+      "dst": 7,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 434 478 -;"
+    }
+  ]
+}
+,{
+  "index": 7,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 6,
+      "src_outlet": 0,
+      "src_text": "#X obj 402 415 t f f;"
+    },
+    {
+      "src": 6,
+      "src_outlet": 1,
+      "src_text": "#X obj 402 415 t f f;"
+    },
+    {
+      "src": 8,
+      "src_outlet": 0,
+      "src_text": "#X msg 452 444 0;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 5,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 434 508 *;"
+    }
+  ]
+}
+,{
+  "index": 8,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 16,
+      "src_outlet": 3,
+      "src_text": "#X obj 161 167 trigger bang bang pointer bang, f 42;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 7,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 434 478 -;"
+    }
+  ]
+}
+,{
+  "index": 9,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 5,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 434 508 *;"
+    }
+  ]
+}
+,{
+  "index": 10,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 16,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 161 167 trigger bang bang pointer bang, f 42;"
+    }
+  ]
+}
+,{
+  "index": 11,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 20,
+      "src_outlet": 0,
+      "src_text": "#X obj 131 357 get template-\\$1 y w x;"
+    },
+    {
+      "src": 22,
+      "src_outlet": 0,
+      "src_text": "#X obj 295 357 get template-\\$1 y w;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 12,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 5,
+      "src_outlet": 0,
+      "src_text": "#X obj 434 508 *;"
+    },
+    {
+      "src": 18,
+      "src_outlet": 0,
+      "src_text": "#X msg 364 486 0;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 13,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 14,
+      "src_outlet": 0,
+      "src_text": "#X obj 332 444 t f b;"
+    },
+    {
+      "src": 20,
+      "src_outlet": 1,
+      "src_text": "#X obj 131 357 get template-\\$1 y w x;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 14,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 22,
+      "src_outlet": 1,
+      "src_text": "#X obj 295 357 get template-\\$1 y w;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 13,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 287 607 outlet;"
+    },
+    {
+      "dst": 18,
+      "dst_inlet": 0,
+      "dst_text": "#X msg 364 486 0;"
+    }
+  ]
+}
+,{
+  "index": 15,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 0,
+      "src_outlet": 0,
+      "src_text": "#X floatatom 123 283 0 0 0 0 - - - 0;"
+    },
+    {
+      "src": 1,
+      "src_outlet": 0,
+      "src_text": "#X obj 36 323 f;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 19,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 131 309 element template-event \\$1, f 17;"
+    }
+  ]
+}
+,{
+  "index": 16,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 10,
+      "src_outlet": 0,
+      "src_text": "#X obj 161 132 inlet;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 1,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 36 323 f;"
+    },
+    {
+      "dst": 4,
+      "dst_inlet": 0,
+      "dst_text": "#X msg 295 287 0;"
+    },
+    {
+      "dst": 19,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 131 309 element template-event \\$1, f 17;"
+    },
+    {
+      "dst": 21,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 295 316 element template-event \\$1, f 17;"
+    },
+    {
+      "dst": 23,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 123 244 getsize template-event \\$1, f 17;"
+    },
+    {
+      "dst": 3,
+      "dst_inlet": 0,
+      "dst_text": "#X msg 54 227 1;"
+    },
+    {
+      "dst": 8,
+      "dst_inlet": 0,
+      "dst_text": "#X msg 452 444 0;"
+    }
+  ]
+}
+,{
+  "index": 17,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 5,
+      "src_outlet": 0,
+      "src_text": "#X obj 434 508 *;"
+    },
+    {
+      "src": 29,
+      "src_outlet": 0,
+      "src_text": "#X msg 471 539 stop;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 1,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 36 323 f;"
+    }
+  ]
+}
+,{
+  "index": 18,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 14,
+      "src_outlet": 1,
+      "src_text": "#X obj 332 444 t f b;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 12,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 364 607 outlet;"
+    }
+  ]
+}
+,{
+  "index": 19,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 15,
+      "src_outlet": 1,
+      "src_text": "#X obj 36 366 select;"
+    },
+    {
+      "src": 16,
+      "src_outlet": 2,
+      "src_text": "#X obj 161 167 trigger bang bang pointer bang, f 42;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 20,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 131 357 get template-\\$1 y w x;"
+    }
+  ]
+}
+,{
+  "index": 20,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 19,
+      "src_outlet": 0,
+      "src_text": "#X obj 131 309 element template-event \\$1, f 17;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 11,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 211 607 outlet;"
+    },
+    {
+      "dst": 13,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 287 607 outlet;"
+    },
+    {
+      "dst": 6,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 402 415 t f f;"
+    }
+  ]
+}
+,{
+  "index": 21,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 4,
+      "src_outlet": 0,
+      "src_text": "#X msg 295 287 0;"
+    },
+    {
+      "src": 16,
+      "src_outlet": 2,
+      "src_text": "#X obj 161 167 trigger bang bang pointer bang, f 42;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 22,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 295 357 get template-\\$1 y w;"
+    }
+  ]
+}
+,{
+  "index": 22,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 21,
+      "src_outlet": 0,
+      "src_text": "#X obj 295 316 element template-event \\$1, f 17;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 11,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 211 607 outlet;"
+    },
+    {
+      "dst": 14,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 332 444 t f b;"
+    }
+  ]
+}
+,{
+  "index": 23,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 16,
+      "src_outlet": 2,
+      "src_text": "#X obj 161 167 trigger bang bang pointer bang, f 42;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 0,
+      "dst_inlet": 0,
+      "dst_text": "#X floatatom 123 283 0 0 0 0 - - - 0;"
+    }
+  ]
+}
+,{
+  "index": 24,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 25,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 26,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 27,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 28,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 29,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 30,
+      "src_outlet": 0,
+      "src_text": "#X obj 471 512 r reset;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 17,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 434 578 delay;"
+    }
+  ]
+}
+,{
+  "index": 30,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 29,
+      "dst_inlet": 0,
+      "dst_text": "#X msg 471 539 stop;"
+    }
+  ]
+}
+]}

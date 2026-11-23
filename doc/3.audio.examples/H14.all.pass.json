@@ -1,0 +1,316 @@
+{"source_file":"https://github.com/einkilometer/pure-data/tree/main/doc3.audio.examples/H14.all.pass.txt#L1","online_patch":"https://github.com/einkilometer/pure-data/tree/main/doc3.audio.examples/H14.all.pass.pd#L1","online_pdf":"https://github.com/einkilometer/pure-data/tree/main/doc3.audio.examples/H14.all.pass.pdf#L1","objects":[{
+  "index": 0,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 1,
+      "src_outlet": 0,
+      "src_text": "#X obj 63 230 filter-graph1 100 48000;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 22,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 76 329 filter-graph2 \\$0-amp \\$0-phase;"
+    }
+  ]
+}
+,{
+  "index": 1,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 7,
+      "src_outlet": 0,
+      "src_text": "#X obj 63 204 bng 19 250 50 0 empty empty empty 0 -6 0 8 #dfdfdf #000000 #000000;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 0,
+      "dst_inlet": 0,
+      "dst_text": "#X floatatom 63 262 5 0 0 0 - - - 0;"
+    },
+    {
+      "dst": 5,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 276 276 rzero_rev~;"
+    },
+    {
+      "dst": 22,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 76 329 filter-graph2 \\$0-amp \\$0-phase;"
+    },
+    {
+      "dst": 22,
+      "dst_inlet": 2,
+      "dst_text": "#X obj 76 329 filter-graph2 \\$0-amp \\$0-phase;"
+    }
+  ]
+}
+,{
+  "index": 2,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 4,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 371 304 / 100;"
+    }
+  ]
+}
+,{
+  "index": 3,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 4,
+      "src_outlet": 0,
+      "src_text": "#X obj 371 304 / 100;"
+    },
+    {
+      "src": 5,
+      "src_outlet": 0,
+      "src_text": "#X obj 276 276 rzero_rev~;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 22,
+      "dst_inlet": 3,
+      "dst_text": "#X obj 76 329 filter-graph2 \\$0-amp \\$0-phase;"
+    }
+  ]
+}
+,{
+  "index": 4,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 2,
+      "src_outlet": 0,
+      "src_text": "#X floatatom 371 281 3 -99 99 0 - \\$0-pole - 0;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 5,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 276 276 rzero_rev~;"
+    },
+    {
+      "dst": 3,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 276 301 rpole~;"
+    }
+  ]
+}
+,{
+  "index": 5,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 1,
+      "src_outlet": 1,
+      "src_text": "#X obj 63 230 filter-graph1 100 48000;"
+    },
+    {
+      "src": 4,
+      "src_outlet": 0,
+      "src_text": "#X obj 371 304 / 100;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 3,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 276 301 rpole~;"
+    }
+  ]
+}
+,{
+  "index": 6,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 7,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 1,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 63 230 filter-graph1 100 48000;"
+    }
+  ]
+}
+,{
+  "index": 8,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 9,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 10,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 11,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 12,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 13,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 14,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 15,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 16,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 17,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 18,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 19,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 20,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 21,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 22,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 0,
+      "src_outlet": 0,
+      "src_text": "#X floatatom 63 262 5 0 0 0 - - - 0;"
+    },
+    {
+      "src": 1,
+      "src_outlet": 1,
+      "src_text": "#X obj 63 230 filter-graph1 100 48000;"
+    },
+    {
+      "src": 1,
+      "src_outlet": 2,
+      "src_text": "#X obj 63 230 filter-graph1 100 48000;"
+    },
+    {
+      "src": 3,
+      "src_outlet": 0,
+      "src_text": "#X obj 276 301 rpole~;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 23,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 24,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 25,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 26,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 27,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 28,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 29,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 30,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 31,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+]}

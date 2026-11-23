@@ -1,0 +1,668 @@
+{"source_file":"https://github.com/einkilometer/pure-data/tree/main/doc3.audio.examples/adsr.txt#L1","online_patch":"https://github.com/einkilometer/pure-data/tree/main/doc3.audio.examples/adsr.pd#L1","online_pdf":"https://github.com/einkilometer/pure-data/tree/main/doc3.audio.examples/adsr.pdf#L1","objects":[{
+  "index": 0,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 3,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 129 148 sel 0;"
+    }
+  ]
+}
+,{
+  "index": 1,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 4,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 190 273 f \\$1;"
+    },
+    {
+      "dst": 14,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 485 364 * \\$1;"
+    }
+  ]
+}
+,{
+  "index": 2,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 3,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 0,
+      "src_outlet": 0,
+      "src_text": "#X obj 129 120 inlet;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 12,
+      "dst_inlet": 0,
+      "dst_text": "#X msg 129 179 stop;"
+    },
+    {
+      "dst": 13,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 596 315 pack 0 \\$5;"
+    },
+    {
+      "dst": 25,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 231 101 moses;"
+    }
+  ]
+}
+,{
+  "index": 4,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 1,
+      "src_outlet": 0,
+      "src_text": "#X obj 438 160 inlet;"
+    },
+    {
+      "src": 41,
+      "src_outlet": 0,
+      "src_text": "#X obj 263 164 b;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 42,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 190 298 pack f \\$2;"
+    }
+  ]
+}
+,{
+  "index": 5,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 6,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 422 285 del \\$2;"
+    },
+    {
+      "dst": 42,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 190 298 pack f \\$2;"
+    }
+  ]
+}
+,{
+  "index": 6,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 5,
+      "src_outlet": 0,
+      "src_text": "#X obj 495 160 inlet;"
+    },
+    {
+      "src": 12,
+      "src_outlet": 0,
+      "src_text": "#X msg 129 179 stop;"
+    },
+    {
+      "src": 41,
+      "src_outlet": 0,
+      "src_text": "#X obj 263 164 b;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 8,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 446 313 f \\$4;"
+    }
+  ]
+}
+,{
+  "index": 7,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 55,
+      "src_outlet": 0,
+      "src_text": "#X obj 595 429 r \\$0-line;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 15,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 595 536 outlet~;"
+    }
+  ]
+}
+,{
+  "index": 8,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 6,
+      "src_outlet": 0,
+      "src_text": "#X obj 422 285 del \\$2;"
+    },
+    {
+      "src": 10,
+      "src_outlet": 0,
+      "src_text": "#X obj 600 160 inlet;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 18,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 446 338 * 0.01;"
+    }
+  ]
+}
+,{
+  "index": 9,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 43,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 485 388 pack f \\$3;"
+    }
+  ]
+}
+,{
+  "index": 10,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 8,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 446 313 f \\$4;"
+    }
+  ]
+}
+,{
+  "index": 11,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 13,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 596 315 pack 0 \\$5;"
+    }
+  ]
+}
+,{
+  "index": 12,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 3,
+      "src_outlet": 0,
+      "src_text": "#X obj 129 148 sel 0;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 6,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 422 285 del \\$2;"
+    }
+  ]
+}
+,{
+  "index": 13,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 3,
+      "src_outlet": 0,
+      "src_text": "#X obj 129 148 sel 0;"
+    },
+    {
+      "src": 11,
+      "src_outlet": 0,
+      "src_text": "#X obj 656 160 inlet;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 45,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 596 356 s \\$0-line;"
+    }
+  ]
+}
+,{
+  "index": 14,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 1,
+      "src_outlet": 0,
+      "src_text": "#X obj 438 160 inlet;"
+    },
+    {
+      "src": 18,
+      "src_outlet": 0,
+      "src_text": "#X obj 446 338 * 0.01;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 43,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 485 388 pack f \\$3;"
+    }
+  ]
+}
+,{
+  "index": 15,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 7,
+      "src_outlet": 0,
+      "src_text": "#X obj 595 476 line~;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 16,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 17,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 18,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 8,
+      "src_outlet": 0,
+      "src_text": "#X obj 446 313 f \\$4;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 14,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 485 364 * \\$1;"
+    }
+  ]
+}
+,{
+  "index": 19,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 20,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 21,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 22,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 23,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 24,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 25,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 3,
+      "src_outlet": 1,
+      "src_text": "#X obj 129 148 sel 0;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 26,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 218 131 t b b;"
+    },
+    {
+      "dst": 41,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 263 164 b;"
+    }
+  ]
+}
+,{
+  "index": 26,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 25,
+      "src_outlet": 0,
+      "src_text": "#X obj 231 101 moses;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 41,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 263 164 b;"
+    },
+    {
+      "dst": 27,
+      "dst_inlet": 0,
+      "dst_text": "#X msg 152 299 0;"
+    }
+  ]
+}
+,{
+  "index": 27,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 26,
+      "src_outlet": 1,
+      "src_text": "#X obj 218 131 t b b;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 49,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 190 328 s \\$0-line;"
+    }
+  ]
+}
+,{
+  "index": 28,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 29,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 30,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 31,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 32,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 33,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 34,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 35,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 36,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 37,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 38,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 39,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 40,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 41,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 25,
+      "src_outlet": 1,
+      "src_text": "#X obj 231 101 moses;"
+    },
+    {
+      "src": 26,
+      "src_outlet": 0,
+      "src_text": "#X obj 218 131 t b b;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 4,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 190 273 f \\$1;"
+    },
+    {
+      "dst": 6,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 422 285 del \\$2;"
+    }
+  ]
+}
+,{
+  "index": 42,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 4,
+      "src_outlet": 0,
+      "src_text": "#X obj 190 273 f \\$1;"
+    },
+    {
+      "src": 5,
+      "src_outlet": 0,
+      "src_text": "#X obj 495 160 inlet;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 49,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 190 328 s \\$0-line;"
+    }
+  ]
+}
+,{
+  "index": 43,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 9,
+      "src_outlet": 0,
+      "src_text": "#X obj 545 160 inlet;"
+    },
+    {
+      "src": 14,
+      "src_outlet": 0,
+      "src_text": "#X obj 485 364 * \\$1;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 46,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 485 419 s \\$0-line;"
+    }
+  ]
+}
+,{
+  "index": 44,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 45,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 13,
+      "src_outlet": 0,
+      "src_text": "#X obj 596 315 pack 0 \\$5;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 46,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 43,
+      "src_outlet": 0,
+      "src_text": "#X obj 485 388 pack f \\$3;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 47,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 48,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 49,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 27,
+      "src_outlet": 0,
+      "src_text": "#X msg 152 299 0;"
+    },
+    {
+      "src": 42,
+      "src_outlet": 0,
+      "src_text": "#X obj 190 298 pack f \\$2;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 50,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 51,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 52,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 53,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 54,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 55,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 7,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 595 476 line~;"
+    }
+  ]
+}
+]}

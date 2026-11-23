@@ -1,0 +1,133 @@
+{"source_file":"https://github.com/einkilometer/pure-data/tree/main/doc5.reference/clone-abs-d.txt#L1","online_patch":"https://github.com/einkilometer/pure-data/tree/main/doc5.reference/clone-abs-d.pd#L1","online_pdf":"https://github.com/einkilometer/pure-data/tree/main/doc5.reference/clone-abs-d.pdf#L1","objects":[{
+  "index": 0,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 3,
+      "src_outlet": 0,
+      "src_text": "#X obj 212 292 sig~;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 1,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 2,
+      "src_outlet": 0,
+      "src_text": "#X obj 182 168 f;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 5,
+      "dst_inlet": 0,
+      "dst_text": "#X floatatom 212 253 5 0 0 0 - - - 0;"
+    },
+    {
+      "dst": 2,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 182 168 f;"
+    }
+  ]
+}
+,{
+  "index": 2,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 1,
+      "src_outlet": 1,
+      "src_text": "#X obj 122 138 savestate;"
+    },
+    {
+      "src": 4,
+      "src_outlet": 0,
+      "src_text": "#X obj 212 87 inlet;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 1,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 122 138 savestate;"
+    },
+    {
+      "dst": 5,
+      "dst_inlet": 0,
+      "dst_text": "#X floatatom 212 253 5 0 0 0 - - - 0;"
+    }
+  ]
+}
+,{
+  "index": 3,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 5,
+      "src_outlet": 0,
+      "src_text": "#X floatatom 212 253 5 0 0 0 - - - 0;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 0,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 212 332 outlet~;"
+    }
+  ]
+}
+,{
+  "index": 4,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 5,
+      "dst_inlet": 0,
+      "dst_text": "#X floatatom 212 253 5 0 0 0 - - - 0;"
+    },
+    {
+      "dst": 2,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 182 168 f;"
+    }
+  ]
+}
+,{
+  "index": 5,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 1,
+      "src_outlet": 0,
+      "src_text": "#X obj 122 138 savestate;"
+    },
+    {
+      "src": 2,
+      "src_outlet": 0,
+      "src_text": "#X obj 182 168 f;"
+    },
+    {
+      "src": 4,
+      "src_outlet": 0,
+      "src_text": "#X obj 212 87 inlet;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 3,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 212 292 sig~;"
+    }
+  ]
+}
+,{
+  "index": 6,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+]}

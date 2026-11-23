@@ -1,0 +1,636 @@
+{"source_file":"https://github.com/einkilometer/pure-data/tree/main/doc3.audio.examples/buttercoef3.txt#L1","online_patch":"https://github.com/einkilometer/pure-data/tree/main/doc3.audio.examples/buttercoef3.pd#L1","online_pdf":"https://github.com/einkilometer/pure-data/tree/main/doc3.audio.examples/buttercoef3.pdf#L1","objects":[{
+  "index": 0,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 9,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 119 124 t b b b f;"
+    }
+  ]
+}
+,{
+  "index": 1,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 33,
+      "src_outlet": 0,
+      "src_text": "#X obj 582 136 expr tan($f1*1.57);"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 29,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 159 222 expr (1 - $f2*$f2) / (1 + $f2*$f2 + 2*$f2*cos($f1));"
+    },
+    {
+      "dst": 30,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 221 250 expr 2*$f2*sin($f1) / (1 + $f2*$f2 + 2*$f2*cos($f1));"
+    },
+    {
+      "dst": 31,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 139 353 expr (1 - $f2*$f2) / (1 + $f2*$f2 + 2*$f2*cos($f1));"
+    }
+  ]
+}
+,{
+  "index": 2,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 34,
+      "src_outlet": 0,
+      "src_text": "#X obj 159 176 expr $f1*1.5708;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 29,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 159 222 expr (1 - $f2*$f2) / (1 + $f2*$f2 + 2*$f2*cos($f1));"
+    },
+    {
+      "dst": 30,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 221 250 expr 2*$f2*sin($f1) / (1 + $f2*$f2 + 2*$f2*cos($f1));"
+    }
+  ]
+}
+,{
+  "index": 3,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 9,
+      "src_outlet": 2,
+      "src_text": "#X obj 119 124 t b b b f;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 34,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 159 176 expr $f1*1.5708;"
+    }
+  ]
+}
+,{
+  "index": 4,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 9,
+      "src_outlet": 1,
+      "src_text": "#X obj 119 124 t b b b f;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 31,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 139 353 expr (1 - $f2*$f2) / (1 + $f2*$f2 + 2*$f2*cos($f1));"
+    }
+  ]
+}
+,{
+  "index": 5,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 7,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 575 368 f;"
+    }
+  ]
+}
+,{
+  "index": 6,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 7,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 575 368 f;"
+    }
+  ]
+}
+,{
+  "index": 7,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 5,
+      "src_outlet": 0,
+      "src_text": "#X obj 575 316 loadbang;"
+    },
+    {
+      "src": 6,
+      "src_outlet": 0,
+      "src_text": "#X obj 586 344 inlet;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 8,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 575 392 expr 1 - 2*$f1;"
+    }
+  ]
+}
+,{
+  "index": 8,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 7,
+      "src_outlet": 0,
+      "src_text": "#X obj 575 368 f;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 12,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 119 437 f;"
+    }
+  ]
+}
+,{
+  "index": 9,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 0,
+      "src_outlet": 0,
+      "src_text": "#X obj 119 96 inlet;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 12,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 119 437 f;"
+    },
+    {
+      "dst": 4,
+      "dst_inlet": 0,
+      "dst_text": "#X msg 139 329 0;"
+    },
+    {
+      "dst": 3,
+      "dst_inlet": 0,
+      "dst_text": "#X msg 159 151 0.667;"
+    },
+    {
+      "dst": 32,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 582 114 clip 0 1;"
+    }
+  ]
+}
+,{
+  "index": 10,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 11,
+      "src_outlet": 1,
+      "src_text": "#X obj 221 277 t f f;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 21,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 558 533 outlet;"
+    }
+  ]
+}
+,{
+  "index": 11,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 30,
+      "src_outlet": 0,
+      "src_text": "#X obj 221 250 expr 2*$f2*sin($f1) / (1 + $f2*$f2 + 2*$f2*cos($f1));"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 17,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 497 533 outlet;"
+    },
+    {
+      "dst": 27,
+      "dst_inlet": 2,
+      "dst_text": "#X obj 231 482 expr (($f2-$f1)*($f2-$f1)+$f3*$f3);"
+    },
+    {
+      "dst": 10,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 266 277 * -1;"
+    }
+  ]
+}
+,{
+  "index": 12,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 8,
+      "src_outlet": 0,
+      "src_text": "#X obj 575 392 expr 1 - 2*$f1;"
+    },
+    {
+      "src": 9,
+      "src_outlet": 0,
+      "src_text": "#X obj 119 124 t b b b f;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 28,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 119 458 t f f;"
+    }
+  ]
+}
+,{
+  "index": 13,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 42,
+      "src_outlet": 0,
+      "src_text": "#X obj 66 505 expr abs($f1-$f2);"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 14,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 15,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 16,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 31,
+      "src_outlet": 0,
+      "src_text": "#X obj 139 353 expr (1 - $f2*$f2) / (1 + $f2*$f2 + 2*$f2*cos($f1));"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 17,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 11,
+      "src_outlet": 0,
+      "src_text": "#X obj 221 277 t f f;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 18,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 19,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 20,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 21,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 10,
+      "src_outlet": 0,
+      "src_text": "#X obj 266 277 * -1;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 22,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 23,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 29,
+      "src_outlet": 0,
+      "src_text": "#X obj 159 222 expr (1 - $f2*$f2) / (1 + $f2*$f2 + 2*$f2*cos($f1));"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 24,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 25,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 27,
+      "src_outlet": 0,
+      "src_text": "#X obj 231 482 expr (($f2-$f1)*($f2-$f1)+$f3*$f3);"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 26,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 27,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 11,
+      "src_outlet": 0,
+      "src_text": "#X obj 221 277 t f f;"
+    },
+    {
+      "src": 28,
+      "src_outlet": 1,
+      "src_text": "#X obj 119 458 t f f;"
+    },
+    {
+      "src": 29,
+      "src_outlet": 0,
+      "src_text": "#X obj 159 222 expr (1 - $f2*$f2) / (1 + $f2*$f2 + 2*$f2*cos($f1));"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 25,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 231 533 outlet;"
+    }
+  ]
+}
+,{
+  "index": 28,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 12,
+      "src_outlet": 0,
+      "src_text": "#X obj 119 437 f;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 42,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 66 505 expr abs($f1-$f2);"
+    },
+    {
+      "dst": 27,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 231 482 expr (($f2-$f1)*($f2-$f1)+$f3*$f3);"
+    }
+  ]
+}
+,{
+  "index": 29,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 1,
+      "src_outlet": 0,
+      "src_text": "#X floatatom 582 159 5 0 0 0 - - - 0;"
+    },
+    {
+      "src": 2,
+      "src_outlet": 0,
+      "src_text": "#X obj 159 199 t f f, f 7;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 23,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 431 533 outlet;"
+    },
+    {
+      "dst": 27,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 231 482 expr (($f2-$f1)*($f2-$f1)+$f3*$f3);"
+    }
+  ]
+}
+,{
+  "index": 30,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 1,
+      "src_outlet": 0,
+      "src_text": "#X floatatom 582 159 5 0 0 0 - - - 0;"
+    },
+    {
+      "src": 2,
+      "src_outlet": 1,
+      "src_text": "#X obj 159 199 t f f, f 7;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 11,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 221 277 t f f;"
+    }
+  ]
+}
+,{
+  "index": 31,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 1,
+      "src_outlet": 0,
+      "src_text": "#X floatatom 582 159 5 0 0 0 - - - 0;"
+    },
+    {
+      "src": 4,
+      "src_outlet": 0,
+      "src_text": "#X msg 139 329 0;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 16,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 341 533 outlet;"
+    },
+    {
+      "dst": 42,
+      "dst_inlet": 1,
+      "dst_text": "#X obj 66 505 expr abs($f1-$f2);"
+    }
+  ]
+}
+,{
+  "index": 32,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 9,
+      "src_outlet": 3,
+      "src_text": "#X obj 119 124 t b b b f;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 33,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 582 136 expr tan($f1*1.57);"
+    }
+  ]
+}
+,{
+  "index": 33,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 32,
+      "src_outlet": 0,
+      "src_text": "#X obj 582 114 clip 0 1;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 1,
+      "dst_inlet": 0,
+      "dst_text": "#X floatatom 582 159 5 0 0 0 - - - 0;"
+    }
+  ]
+}
+,{
+  "index": 34,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 3,
+      "src_outlet": 0,
+      "src_text": "#X msg 159 151 0.667;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 2,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 159 199 t f f, f 7;"
+    }
+  ]
+}
+,{
+  "index": 35,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 36,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 37,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 38,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 39,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 40,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 41,
+  "depth": 0,
+  "inlets": [],
+  "outlets": []
+}
+,{
+  "index": 42,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 28,
+      "src_outlet": 0,
+      "src_text": "#X obj 119 458 t f f;"
+    },
+    {
+      "src": 31,
+      "src_outlet": 0,
+      "src_text": "#X obj 139 353 expr (1 - $f2*$f2) / (1 + $f2*$f2 + 2*$f2*cos($f1));"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 13,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 66 533 outlet;"
+    }
+  ]
+}
+]}

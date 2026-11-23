@@ -1,0 +1,25 @@
+{"source_file":"https://github.com/einkilometer/pure-data/tree/main/doc6.externs/test-obj5.txt#L1","online_patch":"https://github.com/einkilometer/pure-data/tree/main/doc6.externs/test-obj5.pd#L1","online_pdf":"https://github.com/einkilometer/pure-data/tree/main/doc6.externs/test-obj5.pdf#L1","objects":[{
+  "index": 0,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 1,
+      "src_outlet": 0,
+      "src_text": "#X msg 46 35 rats 4 5 6 tara tara boum boum;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 1,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 0,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 46 79 obj5 1 2 3 cis boom bah;"
+    }
+  ]
+}
+]}

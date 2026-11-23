@@ -1,0 +1,43 @@
+{"source_file":"https://github.com/einkilometer/pure-data/tree/main/doc6.externs/test-obj4.txt#L1","online_patch":"https://github.com/einkilometer/pure-data/tree/main/doc6.externs/test-obj4.pd#L1","online_pdf":"https://github.com/einkilometer/pure-data/tree/main/doc6.externs/test-obj4.pdf#L1","objects":[{
+  "index": 0,
+  "depth": 0,
+  "inlets": [],
+  "outlets": [
+    {
+      "dst": 2,
+      "dst_inlet": 0,
+      "dst_text": "#X obj 108 72 obj4 34;"
+    }
+  ]
+}
+,{
+  "index": 1,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 2,
+      "src_outlet": 0,
+      "src_text": "#X obj 108 72 obj4 34;"
+    }
+  ],
+  "outlets": []
+}
+,{
+  "index": 2,
+  "depth": 0,
+  "inlets": [
+    {
+      "src": 0,
+      "src_outlet": 0,
+      "src_text": "#X floatatom 108 43 3 0 0 0 - - -;"
+    }
+  ],
+  "outlets": [
+    {
+      "dst": 1,
+      "dst_inlet": 0,
+      "dst_text": "#X floatatom 108 102 3 0 0 0 - - -;"
+    }
+  ]
+}
+]}
