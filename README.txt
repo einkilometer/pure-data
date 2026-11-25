@@ -3,9 +3,9 @@
 In the folder "doc" you find PDF print-outs of Pure-Data° Help-Patches from the Pure-Data documentation°°°.
 The folder "ps" contains postscript print-outs saved with the help of canvas.top from the ceammc°° library.
 
-The root folder contains a file named "paste the subpatch to print as ps.pd" that I used to create postscript files.
-The patch is tested on pd-0.56.2 and with the ceammc library from deken.
-You can install "ceammc" by "Find Externals online" from the deken repository. 
+The "paste the subpatch to print as ps.pd" file I used to create postscript files.
+It is tested on pd-0.56.2 and the ceammc library from deken. You can install "ceammc" by "Find Externals online" from the repository. 
+The "paste_SourceCode.pd" patch is there to insert source-code inside pure-data.
 
 ° Pd the free real-time computer music system. https://puredata.info
 °° There is also the https://github.com/uliss/pd-ceammc/releases distribution forked from pure-data.
