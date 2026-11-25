@@ -15,10 +15,10 @@ find ./doc -name "*.pd" -print0 | while IFS= read -r -d '' file; do
 
     # JSON-Array aufbauen: erstes Element = Metadaten, dann pro Objekt ein Eintrag
     {
-        printf '{"online_patch":%s,"source_file":%s,"online_pdf":%s,"objects":[' \
+        printf '{"online_pdf":%s,"online_patch":%s,"source_file":%s,"objects":[' \
+            "$(jq -Rn --arg u "$base_url/$rel_base.pdf#L1" '$u')" \
             "$(jq -Rn --arg u "$base_url/$rel_path#L1" '$u')" \
-            "$(jq -Rn --arg f "$base_url/$rel_base.txt" '$f')" \
-            "$(jq -Rn --arg u "$base_url/$rel_base.pdf" '$u')"
+            "$(jq -Rn --arg f "$base_url/$rel_base.txt#L1" '$f')"
 
         first=1
         for i in $(seq 0 $((objects - 1))); do
