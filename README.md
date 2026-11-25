@@ -1,6 +1,8 @@
 # Pure Data 
 
-Here you find: Paste_SourceCode and Pd -> PS finally PDF batch conversion
+Here you find: 
+
+Paste_SourceCode.pd + Pd -> PS2PDF batch conversion results + JSON files for pd-object interconnections.
 
 The folder "doc" has PDF print-outs of Pure-Data° Help-Patches from the Pure-Data documentation°°°.
 The folder "ps" contains all postscript print-outs saved with the help of canvas.top from the ceammc°° library.
@@ -17,10 +19,11 @@ Pd -> PS -> PDF
 To use pd-source code and to have later visual references handy I use the "paste the subpatch to print as ps.pd" patch.
 To easy paste database results inside Pure-Data i have here the "paste_SourceCode.pd" patch.
 
-
+<img src="paste_SourceCode.png" />
 
 The "paste_SourceCode.pd" patch is there for to insert .pd source-code inside pure-data.
-<img src="paste_SourceCode.png" />
+
+The JSON-files are used to describe pd-object interconnections during Retrieval-Augmented Generation processes.
 
 ° Pd the free real-time computer music system. https://puredata.info
 °° There is also the https://github.com/uliss/pd-ceammc/releases distribution forked from pure-data.
