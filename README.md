@@ -1,5 +1,6 @@
 # Pure Data 
 
+What you see:
 In the folder "doc" you find PDF print-outs of Pure-Data° Help-Patches from the Pure-Data documentation°°°.
 The folder "ps" contains postscript print-outs saved with the help of canvas.top from the ceammc°° library.
 
@@ -7,7 +8,16 @@ The "paste the subpatch to print as ps.pd" file I used to create postscript file
 <img src="paste the subpatch to print as ps.pd.png" />
 It is tested on pd-0.56.2 and the ceammc library from deken. You can install "ceammc" by "Find Externals online" from the repository. 
 
-The "paste_SourceCode.pd" patch is there to insert .pd source-code inside pure-data.
+Why you see:
+During research it is sometime good link patches to a database.
+But databases results are mostly text.
+Pd -> PS -> PDF 
+To use pd-source code and to have later visual references handy I use the "paste the subpatch to print as ps.pd" patch.
+To easy paste database results inside Pure-Data i have here the "paste_SourceCode.pd" patch.
+
+
+
+The "paste_SourceCode.pd" patch is there for to insert .pd source-code inside pure-data.
 <img src="paste_SourceCode.png" />
 
 ° Pd the free real-time computer music system. https://puredata.info
