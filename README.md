@@ -1,6 +1,7 @@
 # Pure Data 
 
-What you see:
+What:
+
 In the folder "doc" you find PDF print-outs of Pure-Data° Help-Patches from the Pure-Data documentation°°°.
 The folder "ps" contains postscript print-outs saved with the help of canvas.top from the ceammc°° library.
 
