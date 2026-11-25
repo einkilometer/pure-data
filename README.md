@@ -1,6 +1,6 @@
 # Pure Data 
 
-What you find here: Paste_SourceCode and Pd -> PS finally PDF batch conversion
+Here you find: Paste_SourceCode and Pd -> PS finally PDF batch conversion
 
 The folder "doc" has PDF print-outs of Pure-Data° Help-Patches from the Pure-Data documentation°°°.
 The folder "ps" contains all postscript print-outs saved with the help of canvas.top from the ceammc°° library.
